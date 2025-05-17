@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+}
+
+.content__container {
+  padding: 1rem 2rem 0 2rem;
+}
+
+.content {
+  gap: 3rem;
+}
+
+.mobile-header {
+  background-color: black;
+}
+
+.card_container {
+  background-color: white;
+  position: relative;
+  padding: 16px;
+  border-radius: 16px;
+  height: 125px;
+}
+
+.card_container h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #3939ff
+}
+
+.card_container p {
+  font-size: 14px;
+}
+
+.card_container img {
+  position: absolute;
+
+  width: 75px;
+}
+
+.card_container:nth-child(odd) {
+  text-align: end;
+  padding-left: 70px;
+}
+
+.card_container:nth-child(even) {
+  padding-right: 70px;
+}
+
+.card_container:nth-child(odd) img {
+  bottom: -20px;
+  left: -16px;
+}
+
+.card_container:nth-child(even) img {
+  bottom: -20px;
+  right: -16px;
+}
+
+.mobi_hello {
+  position: fixed;
+  bottom: 70px;
+  right: 10px;
+  height: 80px;
+}

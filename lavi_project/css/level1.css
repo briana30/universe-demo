@@ -1,0 +1,69 @@
+body {
+  background-color: black;
+}
+
+.content__container {
+  padding: 1rem 2rem 0 2rem;
+}
+
+.content {
+  gap: 3rem;
+}
+
+.mobile-header {
+  background-color: black;
+}
+
+.card_container {
+  background-color: white;
+  position: relative;
+  padding: 16px;
+  border-radius: 16px;
+  height: 125px;
+}
+
+.card_container h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #3939ff
+}
+
+.card_container p {
+  font-size: 24px;
+  font-weight: 600;
+  width: 200px;
+}
+
+
+
+
+.card_container {
+  padding-top: 25px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card_container img {
+  position: absolute;
+  width: 75px;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+
+
+.mobi_hello {
+  position: fixed;
+  bottom: 70px;
+  right: 10px;
+  height: 80px;
+}
+
+.level1 {
+  width: 175px;
+  margin-bottom: -16px;
+}

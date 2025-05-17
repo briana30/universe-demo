@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+}
+
+.mobile-header {
+  background-color: black;
+}
+
+.content {
+  gap: 0.5rem;
+}
+
+.play_container {
+  position: relative;
+  height: 350px;
+}
+
+.play_container .grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 350px;
+}
+
+.play_container .play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}

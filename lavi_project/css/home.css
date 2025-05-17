@@ -1,0 +1,89 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.mobile-header {
+  background-color: #f5f5f5;
+}
+
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 450px;
+  gap: 1rem;
+}
+
+.content h3 {
+  font-size: 1rem;
+  color: #3a3a3a;
+
+}
+
+.content_image {
+  width: 100%;
+}
+
+.promo_container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 125px;
+  border-radius: 1.5rem;
+  background-color: black;
+  margin-top: 1.5rem;
+  overflow: hidden;
+}
+
+.promo_container .mobi {
+  position: absolute;
+  right: 32px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 110px;
+  z-index: 2;
+}
+
+.promo_container .grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.promo_container_content {
+  z-index: 2;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.dare_container {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.dare_container img {
+  height: 1.5rem;
+}
+
+.promo_container_content button {
+  padding: 0.625rem 1rem;
+  border-radius: 1.5rem;
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  font-size: 12px;
+  width: fit-content;
+  cursor: pointer;
+}
